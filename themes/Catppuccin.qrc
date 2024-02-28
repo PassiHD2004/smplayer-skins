@@ -1,0 +1,40 @@
+<RCC>
+	<qresource prefix="/">
+		<file>Catppuccin/control-bg-panel-left.png</file>
+		<file>Catppuccin/control-bg-panel-right.png</file>
+		<file>Catppuccin/control-bg-panel.png</file>
+		<file>Catppuccin/control-bg-seekbar-buffering.png</file>
+		<file>Catppuccin/control-bg-seekbar-left.png</file>
+		<file>Catppuccin/control-bg-seekbar-progress.png</file>
+		<file>Catppuccin/control-bg-seekbar-right.png</file>
+		<file>Catppuccin/control-bg-seekbar.png</file>
+		<file>Catppuccin/control-bg-volumebar-progress.png</file>
+		<file>Catppuccin/control-bg-volumebar.png</file>
+		<file>Catppuccin/control-button-equalizer.png</file>
+		<file>Catppuccin/control-button-fastforward.png</file>
+		<file>Catppuccin/control-button-fullscreen.png</file>
+		<file>Catppuccin/control-button-max-volume.png</file>
+		<file>Catppuccin/control-button-min-volume.png</file>
+		<file>Catppuccin/control-button-next.png</file>
+		<file>Catppuccin/control-button-play-pause.png</file>
+		<file>Catppuccin/control-button-playlist.png</file>
+		<file>Catppuccin/control-button-previous.png</file>
+		<file>Catppuccin/control-button-record.png</file>
+		<file>Catppuccin/control-button-repeat.png</file>
+		<file>Catppuccin/control-button-rewind.png</file>
+		<file>Catppuccin/control-button-seek-knob.png</file>
+		<file>Catppuccin/control-button-shuffle.png</file>
+		<file>Catppuccin/control-button-stop.png</file>
+		<file>Catppuccin/control-button-volume-knob.png</file>
+		<file>Catppuccin/download_subs.png</file>
+		<file>Catppuccin/dvd.png</file>
+		<file>Catppuccin/info.png</file>
+		<file>Catppuccin/open.png</file>
+		<file>Catppuccin/open_favorites.png</file>
+		<file>Catppuccin/open_folder.png</file>
+		<file>Catppuccin/prefs.png</file>
+		<file>Catppuccin/screenshot.png</file>
+		<file>Catppuccin/tubebrowser.png</file>
+		<file>Catppuccin/url.png</file>
+	</qresource>
+</RCC>

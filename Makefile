@@ -35,6 +35,10 @@ install:
 	install -m 644 themes/Mint-Y/README.txt $(THEMES_PATH)/Mint-Y/
 	install -m 644 themes/Mint-Y/main.css $(THEMES_PATH)/Mint-Y/
 
+	- mkdir $(THEMES_PATH)/Catppuccin
+	install -m 644 themes/Catppuccin/Catppuccin.rcc $(THEMES_PATH)/Catppuccin/
+	install -m 644 themes/Catppuccin/main.css $(THEMES_PATH)/Catppuccin/
+
 clean:
 	cd themes && make clean
 

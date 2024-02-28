@@ -1,7 +1,10 @@
-all: Black/Black.rcc Gonzo/Gonzo.rcc Mac/Mac.rcc Mint-Y/Mint-Y.rcc Modern/Modern.rcc Vista/Vista.rcc 
+all: Black/Black.rcc Catppuccin/Catppuccin.rcc Gonzo/Gonzo.rcc Mac/Mac.rcc Mint-Y/Mint-Y.rcc Modern/Modern.rcc Vista/Vista.rcc 
 
 Black/Black.rcc: Black.qrc
 	rcc -binary Black.qrc -o Black/Black.rcc
+
+Catppuccin/Catppuccin.rcc: Catppuccin.qrc
+	rcc -binary Catppuccin.qrc -o Catppuccin/Catppuccin.rcc
 
 Gonzo/Gonzo.rcc: Gonzo.qrc
 	rcc -binary Gonzo.qrc -o Gonzo/Gonzo.rcc
@@ -20,6 +23,7 @@ Vista/Vista.rcc: Vista.qrc
 
 clean:
 	-rm Black/Black.rcc
+	-rm Catppuccin/Catppuccin.rcc
 	-rm Gonzo/Gonzo.rcc
 	-rm Mac/Mac.rcc
 	-rm Mint-Y/Mint-Y.rcc
